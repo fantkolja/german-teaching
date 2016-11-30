@@ -1,0 +1,26 @@
+<div class="container">
+  <table class="table table-striped">
+    <tr>
+      <th>Art</th>
+      <th>Infinitiv</th>
+      <th>3. Person</th>
+      <th>Präteritum</th>
+      <th>Perfekt</th>
+      <th>Hilfsverb</th>
+      <th>Präfix ist trennbar</th>
+      <th>"ge-" im Perfekt</th>
+      <th>Auf Ukrainisch</th>
+    </tr>
+    <tr ng-repeat="verb in verbListCtrl.verbs">
+      <td>{{verb.kind}}</td>
+      <td>{{verb.infinitiv}}</td>
+      <td>{{verb.third_person}}</td>
+      <td>{{verb.praeteritum}}</td>
+      <td>{{verb.perfekt}}</td>
+      <td>{{verb.hilfsverb}}</td>
+      <td>{{verb.separable_prefix}}</td>
+      <td>{{verb.adding_ge}}</td>
+      <td>{{verb.ukr}}</td>
+    </tr>
+  </table>
+</div>
