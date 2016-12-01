@@ -1,16 +1,20 @@
 'use strict';
 
-describe('myApp.view2 module', function() {
+describe('challenges module', function() {
 
-  beforeEach(module('myApp.view2'));
+  beforeEach(module('challenges'));
 
-  describe('view2 controller', function(){
+  // describe('verb-list controller', function(){
+  //   var $controller, verbListCtrl;
+  //
+  //   beforeEach(inject(function(_$controller_) {
+  //     $controller = _$controller_;
+  //     verbListCtrl = $controller('VerbListController', {});
+  //   }));
+  //
+  //   it('should be defined', function() {
+  //     expect(verbListCtrl).toBeDefined();
+  //   });
 
-    it('should ....', inject(function($controller) {
-      //spec body
-      var view2Ctrl = $controller('View2Ctrl');
-      expect(view2Ctrl).toBeDefined();
-    }));
-
-  });
+  // });
 });

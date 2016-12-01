@@ -1,28 +1,32 @@
 <div class="container">
 
   <div class="col-md-2">
-    <input type="checkbox" ng-model="verbListCtrl.settings.praet" /> Präteritum zeigen
+    <input type="checkbox" ng-model="verbListCtrl.settings.kindOn" /> Verbart zeigen<br class="hidden-sm hidden-xs"/>
+    <input type="checkbox" ng-model="verbListCtrl.settings.praeteritumOn" /> Präteritum zeigen<br class="hidden-sm hidden-xs"/>
+    <input type="checkbox" ng-model="verbListCtrl.settings.auxilliaryVerbOn" /> Hilfsverb zeigen<br class="hidden-sm hidden-xs"/>
+    <br />
+    <button class="btn btn-default btn-lg">Testen</button>
   </div>
   <div class="col-md-10">
     <table class="table table-striped">
       <tr>
-        <th>Art</th>
+        <th ng-show="verbListCtrl.settings.kindOn">Art</th>
         <th>Infinitiv</th>
         <th>3. Person</th>
-        <th ng-show="verbListCtrl.settings.praet">Präteritum</th>
+        <th ng-show="verbListCtrl.settings.praeteritumOn">Präteritum</th>
         <th>Perfekt</th>
-        <th>Hilfsverb</th>
+        <th ng-show="verbListCtrl.settings.auxilliaryVerbOn">Hilfsverb</th>
         <!-- <th>Präfix ist trennbar</th>
         <th>"ge-" im Perfekt</th> -->
         <th>Auf Ukrainisch</th>
       </tr>
       <tr ng-repeat="verb in verbListCtrl.verbs">
-        <td>{{verb.kind}}</td>
+        <td ng-show="verbListCtrl.settings.kindOn">{{verb.kind}}</td>
         <td>{{verb.infinitiv}}</td>
         <td>{{verb.third_person}}</td>
-        <td ng-show="verbListCtrl.settings.praet">{{verb.praeteritum}}</td>
+        <td ng-show="verbListCtrl.settings.praeteritumOn">{{verb.praeteritum}}</td>
         <td>{{verb.perfekt}}</td>
-        <td>{{verb.hilfsverb}}</td>
+        <td ng-show="verbListCtrl.settings.auxilliaryVerbOn">{{verb.auxilliary_verb}}</td>
         <!-- <td>{{verb.separable_prefix}}</td>
         <td>{{verb.adding_ge}}</td> -->
         <td>{{verb.ukr}}</td>

@@ -15,6 +15,8 @@ function VerbListService($http) {
       console.log('VerbListService.getAllVerbs doesn\'t work, returned:', err);
     });
   };
+
+  service.something = 'something';
 }
 
 })();

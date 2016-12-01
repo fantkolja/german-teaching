@@ -5,7 +5,7 @@
     "third_person": "biegt ab",
     "praeteritum": "bog ab",
     "perfekt": "abgebogen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "повертати"
@@ -16,7 +16,7 @@
     "third_person": "fängt an",
     "praeteritum": "fing an",
     "perfekt": "angefangen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "починати"
@@ -27,7 +27,7 @@
     "third_person": "ruft an",
     "praeteritum": "rief an",
     "perfekt": "angerufen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "викликати по телефону"
@@ -38,7 +38,7 @@
     "third_person": "streicht an",
     "praeteritum": "strich an",
     "perfekt": "angestrichen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "фарбувати"
@@ -49,7 +49,7 @@
     "third_person": "zieht an",
     "praeteritum": "zog an",
     "perfekt": "angezogen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "одягати"
@@ -61,7 +61,7 @@
     "third_person": "steht auf",
     "praeteritum": "stand auf",
     "perfekt": "aufgestanden",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "вставати"
@@ -72,7 +72,7 @@
     "third_person": "beginnt",
     "praeteritum": "begann",
     "perfekt": "begonnen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "false",
     "ukr": "починати"
@@ -83,7 +83,7 @@
     "third_person": "betritt",
     "praeteritum": "betrat",
     "perfekt": "betreten",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "false",
     "ukr": "ззаходити (в приміщення)"
@@ -94,7 +94,7 @@
     "third_person": "bittet",
     "praeteritum": "bat",
     "perfekt": "gebeten",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "просити"
@@ -105,7 +105,7 @@
     "third_person": "bricht",
     "praeteritum": "brach",
     "perfekt": "gebrochen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "ламати"
@@ -116,7 +116,7 @@
     "third_person": "bleibt",
     "praeteritum": "blieb",
     "perfekt": "geblieben",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "залишатися"
@@ -127,7 +127,7 @@
     "third_person": "steigt ein",
     "praeteritum": "stieg ein",
     "perfekt": "eingestiegen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "true",
     "adding_ge": "true",
     "ukr": "заходити (в транспорт)"
@@ -138,7 +138,7 @@
     "third_person": "entscheidet",
     "praeteritum": "entschied",
     "perfekt": "entschieden",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "false",
     "ukr": "вирішувати"
@@ -149,7 +149,7 @@
     "third_person": "isst",
     "praeteritum": "aß",
     "perfekt": "gegessen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "false",
     "ukr": "їсти"
@@ -160,7 +160,7 @@
     "third_person": "fährt",
     "praeteritum": "fuhr",
     "perfekt": "gefahren",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "їхати"
@@ -171,7 +171,7 @@
     "third_person": "fährt",
     "praeteritum": "fuhr",
     "perfekt": "gefahren",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "везти"
@@ -182,7 +182,7 @@
     "third_person": "findet",
     "praeteritum": "fand",
     "perfekt": "gefunden",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "знаходити"
@@ -193,7 +193,7 @@
     "third_person": "fliegt",
     "praeteritum": "flog",
     "perfekt": "geflogen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "літати"
@@ -204,7 +204,7 @@
     "third_person": "gibt",
     "praeteritum": "gab",
     "perfekt": "gegeben",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "давати"
@@ -215,7 +215,7 @@
     "third_person": "gefällt",
     "praeteritum": "gefiel",
     "perfekt": "gefallen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "false",
     "ukr": "подобатися"
@@ -226,7 +226,7 @@
     "third_person": "geht",
     "praeteritum": "ging",
     "perfekt": "gegangen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "ходити"
@@ -237,7 +237,7 @@
     "third_person": "gräbt",
     "praeteritum": "grub",
     "perfekt": "gegraben",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "копати"
@@ -248,7 +248,7 @@
     "third_person": "hat",
     "praeteritum": "hatte",
     "perfekt": "gehabt",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "мати"
@@ -259,7 +259,7 @@
     "third_person": "hängt",
     "praeteritum": "hing ",
     "perfekt": "gehangen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "висіти"
@@ -270,7 +270,7 @@
     "third_person": "hält",
     "praeteritum": "hielt",
     "perfekt": "gehalten",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "зупинятися, тримати"
@@ -281,7 +281,7 @@
     "third_person": "hilft",
     "praeteritum": "half",
     "perfekt": "geholfen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "допомагати"
@@ -292,7 +292,7 @@
     "third_person": "kommt",
     "praeteritum": "kam",
     "perfekt": "gekommen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "приходити"
@@ -303,7 +303,7 @@
     "third_person": "läuft",
     "praeteritum": "lief",
     "perfekt": "gelaufen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "бігати"
@@ -314,7 +314,7 @@
     "third_person": "liest",
     "praeteritum": "las",
     "perfekt": "gelesen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "читати"
@@ -325,7 +325,7 @@
     "third_person": "liegt",
     "praeteritum": "lag",
     "perfekt": "gelegen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "лежати"
@@ -336,7 +336,7 @@
     "third_person": "nimmt",
     "praeteritum": "nahm",
     "perfekt": "genommen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "брати"
@@ -347,7 +347,7 @@
     "third_person": "reißt",
     "praeteritum": "riss",
     "perfekt": "gerissen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "рвати"
@@ -358,7 +358,7 @@
     "third_person": "scheint",
     "praeteritum": "schien",
     "perfekt": "geschienen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "світити"
@@ -369,7 +369,7 @@
     "third_person": "schiebt",
     "praeteritum": "schob",
     "perfekt": "geschoben",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "сунути"
@@ -380,7 +380,7 @@
     "third_person": "schießt",
     "praeteritum": "schoss",
     "perfekt": "geschossen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "стріляти"
@@ -391,7 +391,7 @@
     "third_person": "schläft",
     "praeteritum": "schlief",
     "perfekt": "geschlafen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "спати"
@@ -402,7 +402,7 @@
     "third_person": "schließt",
     "praeteritum": "schloss",
     "perfekt": "geschlossen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "закривати"
@@ -413,7 +413,7 @@
     "third_person": "schneidet",
     "praeteritum": "schnitt",
     "perfekt": "geschnitten",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "різати"
@@ -424,7 +424,7 @@
     "third_person": "schreibt",
     "praeteritum": "schrieb",
     "perfekt": "geschrieben",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "писати"
@@ -435,7 +435,7 @@
     "third_person": "sieht",
     "praeteritum": "sah",
     "perfekt": "gesehen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "бачити"
@@ -446,7 +446,7 @@
     "third_person": "ist",
     "praeteritum": "war",
     "perfekt": "gewesen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "бути"
@@ -457,7 +457,7 @@
     "third_person": "sitzt",
     "praeteritum": "saß",
     "perfekt": "gesessen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "сидіти"
@@ -468,7 +468,7 @@
     "third_person": "singt",
     "praeteritum": "sang",
     "perfekt": "gesungen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "співати"
@@ -479,7 +479,7 @@
     "third_person": "spricht",
     "praeteritum": "sprach",
     "perfekt": "gesprochen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "розмовляти"
@@ -490,7 +490,7 @@
     "third_person": "springt",
     "praeteritum": "sprang",
     "perfekt": "gesprungen",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "стрибати"
@@ -501,7 +501,7 @@
     "third_person": "steht",
     "praeteritum": "stand",
     "perfekt": "gestanden",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "стояти"
@@ -512,7 +512,7 @@
     "third_person": "stirbt",
     "praeteritum": "starb",
     "perfekt": "gestorben",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "вмирати"
@@ -523,7 +523,7 @@
     "third_person": "trifft",
     "praeteritum": "traf",
     "perfekt": "getroffen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "зустрічати"
@@ -534,7 +534,7 @@
     "third_person": "trinkt",
     "praeteritum": "trank",
     "perfekt": "getrunken",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "пити"
@@ -545,7 +545,7 @@
     "third_person": "wäscht",
     "praeteritum": "wusch",
     "perfekt": "gewaschen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "мити"
@@ -556,7 +556,7 @@
     "third_person": "wird",
     "praeteritum": "wurde",
     "perfekt": "geworden",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "ставати"
@@ -567,7 +567,7 @@
     "third_person": "wirft",
     "praeteritum": "warf",
     "perfekt": "geworfen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "кидати"
@@ -578,7 +578,7 @@
     "third_person": "wiegt",
     "praeteritum": "wog",
     "perfekt": "gewogen",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "важити"
@@ -589,7 +589,7 @@
     "third_person": "kennt",
     "praeteritum": "kannte",
     "perfekt": "gekannt",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "знати"
@@ -600,7 +600,7 @@
     "third_person": "bringt",
     "praeteritum": "brachte",
     "perfekt": "gebracht",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "приносити"
@@ -611,7 +611,7 @@
     "third_person": "weiß",
     "praeteritum": "wusste",
     "perfekt": "gewusst",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "знати"
@@ -622,7 +622,7 @@
     "third_person": "brennt",
     "praeteritum": "brannte",
     "perfekt": "gebrannt",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "горіти"
@@ -633,7 +633,7 @@
     "third_person": "sendet",
     "praeteritum": "sandte",
     "perfekt": "gesandt",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "відправляти"
@@ -644,7 +644,7 @@
     "third_person": "denkt",
     "praeteritum": "dachte",
     "perfekt": "gedacht",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "думати"
@@ -655,7 +655,7 @@
     "third_person": "rennt",
     "praeteritum": "rannte",
     "perfekt": "gerannt",
-    "hilfsverb": "sein",
+    "auxilliary_verb": "sein",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "мчати"
@@ -666,7 +666,7 @@
     "third_person": "wendet",
     "praeteritum": "wandte",
     "perfekt": "gewandt",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "повернути"
@@ -677,7 +677,7 @@
     "third_person": "nennt",
     "praeteritum": "nannte",
     "perfekt": "genannt",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "називати"
@@ -688,7 +688,7 @@
     "third_person": "macht",
     "praeteritum": "machte",
     "perfekt": "gemacht",
-    "hilfsverb": "haben",
+    "auxilliary_verb": "haben",
     "separable_prefix": "false",
     "adding_ge": "true",
     "ukr": "робити"

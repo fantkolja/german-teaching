@@ -63,4 +63,14 @@ loader {
 .table th, .table td {
   text-align: center;
 }
+
+.btn.btn-default, .btn.btn-default:focus {
+  background-color: #527F7F;
+  color: #F0FFFF;
+  outline: none;
+}
+
+.btn.btn-default:hover {
+  color: #A3FFFF;
+}
 /*END VERB LIST*/
