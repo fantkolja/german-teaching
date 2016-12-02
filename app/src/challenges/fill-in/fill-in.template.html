@@ -1,1 +1,14 @@
-<p>Tippen</p>
+<div class="container">
+  <p>{{fillInCtrl.currentVerb.infinitiv}}</p>
+  <form class="form-group" name="form">
+    <input class="form-control" type="text" ng-model="fillInCtrl.userInput"
+           placeholder="Type in the {{fillInCtrl.formToFillIn}} form..."
+           name="input" pattern="{{fillInCtrl.currentVerb.perfect}}"
+           ng-keyup="fillInCtrl.checkUserInput()">
+  </form>
+
+  <p>Result:
+    <span class="text-danger" ng-show="form.input.$touched && form.input.$invalid">falsch...</span>
+    <span class="text-success" ng-show="form.input.$touched && form.input.$valid">RICHTIG!</span>
+  </p>
+</div>

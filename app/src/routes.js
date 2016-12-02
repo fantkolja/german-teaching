@@ -21,13 +21,20 @@ function config($urlRouterProvider, $stateProvider) {
     url: '/drag-n-drop',
     templateUrl: 'src/challenges/drag-n-drop/drag-n-drop.template.html'
   })
-  .state('challenges.fill-in', {
-    url: '/fill-in',
-    templateUrl: 'src/challenges/fill-in/fill-in.template.html'
-  })
   .state('challenges.chose', {
     url: '/chose',
     templateUrl: 'src/challenges/chose/chose.template.html'
+  })
+  .state('challenges.fill-in', {
+    url: '/fill-in',
+    templateUrl: 'src/challenges/fill-in/fill-in.template.html',
+    controller: 'FillInController',
+    controllerAs: 'fillInCtrl',
+    resolve: {
+      verbs: ['VerbListService', function(VerbListService) {
+        return VerbListService.getAllVerbs();
+      }]
+    }
   })
   .state('challenges.settings', {
     url: '/settings',

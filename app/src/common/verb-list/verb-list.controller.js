@@ -37,7 +37,8 @@ function VerbListController(verbs) {
     function restoreValues() {
       for (var i = 0, n = verbListCtrl.verbs.length; i < n; i++) {
         var verb = verbListCtrl.verbs[i];
-        verbListCtrl.restoreValue(verb);
+        if (verb.dislocatedValue)
+          verbListCtrl.restoreValue(verb);
       }
     }
 

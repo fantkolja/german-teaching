@@ -65,6 +65,10 @@ loader {
   vertical-align: middle;
 }
 
+.table th {
+  cursor: pointer;
+}
+
 .btn.btn-default, .btn.btn-default:focus {
   background-color: #527F7F;
   color: #F0FFFF;
@@ -73,6 +77,16 @@ loader {
 
 .btn.btn-default:hover {
   color: #A3FFFF;
+}
+
+.btn.btn-default + span {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+}
+
+.btn.btn-default + span:hover {
+  cursor: pointer;
 }
 
 .btn.btn-azure, .btn.btn-azure:focus {
@@ -91,3 +105,9 @@ loader {
 }
 
 /*END VERB LIST*/
+
+@media screen and (min-width: 992px) {
+  .col-md-2.verb-list.text-center {
+    text-align: left;
+  }
+}

@@ -7,10 +7,9 @@ angular.module('common')
 function tooltip() {
   return {
     restrict: 'A',
-    scope: {
-      message: '=msg'
-    },
-    link: 
+    link: function(scope, elem, attrs) {
+      $(elem).tooltip();
+    }
   };
 }
 
