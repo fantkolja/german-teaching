@@ -1,35 +1,73 @@
 <div class="container">
 
+  <!-- SETTINGS -->
   <div class="col-md-2">
-    <input type="checkbox" ng-model="verbListCtrl.settings.kindOn" /> Verbart zeigen<br class="hidden-sm hidden-xs"/>
-    <input type="checkbox" ng-model="verbListCtrl.settings.praeteritumOn" /> Präteritum zeigen<br class="hidden-sm hidden-xs"/>
-    <input type="checkbox" ng-model="verbListCtrl.settings.auxilliaryVerbOn" /> Hilfsverb zeigen<br class="hidden-sm hidden-xs"/>
+    <input type="checkbox" ng-model="verbListCtrl.settings.kind" /> Verbart zeigen<br class="hidden-sm hidden-xs"/>
+    <input type="checkbox" ng-model="verbListCtrl.settings.praeteritum" /> Präteritum zeigen<br class="hidden-sm hidden-xs"/>
+    <input type="checkbox" ng-model="verbListCtrl.settings.auxilliary_verb" /> Hilfsverb zeigen<br class="hidden-sm hidden-xs"/>
     <br />
-    <button class="btn btn-default btn-lg">Testen</button>
+    <button class="btn btn-default btn-lg" ng-click="verbListCtrl.dislocateRandomItems()">Testen</button>
   </div>
+
+  <!-- VERB LIST -->
   <div class="col-md-10">
     <table class="table table-striped">
       <tr>
-        <th ng-show="verbListCtrl.settings.kindOn">Art</th>
+        <th ng-show="verbListCtrl.settings.kind">Art</th>
         <th>Infinitiv</th>
         <th>3. Person</th>
-        <th ng-show="verbListCtrl.settings.praeteritumOn">Präteritum</th>
+        <th ng-show="verbListCtrl.settings.praeteritum">Präteritum</th>
         <th>Perfekt</th>
-        <th ng-show="verbListCtrl.settings.auxilliaryVerbOn">Hilfsverb</th>
+        <th ng-show="verbListCtrl.settings.auxilliary_verb">Hilfsverb</th>
         <!-- <th>Präfix ist trennbar</th>
         <th>"ge-" im Perfekt</th> -->
         <th>Auf Ukrainisch</th>
       </tr>
       <tr ng-repeat="verb in verbListCtrl.verbs">
-        <td ng-show="verbListCtrl.settings.kindOn">{{verb.kind}}</td>
-        <td>{{verb.infinitiv}}</td>
-        <td>{{verb.third_person}}</td>
-        <td ng-show="verbListCtrl.settings.praeteritumOn">{{verb.praeteritum}}</td>
-        <td>{{verb.perfekt}}</td>
-        <td ng-show="verbListCtrl.settings.auxilliaryVerbOn">{{verb.auxilliary_verb}}</td>
+        <td ng-show="verbListCtrl.settings.kind">
+          {{verb.kind}}
+          <button class="btn btn-azure" ng-hide="verb.kind" ng-click="verbListCtrl.restoreValue(verb)">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
+        <td>
+          {{verb.infinitiv}}
+          <button class="btn btn-azure" ng-hide="verb.infinitiv" ng-click="verbListCtrl.restoreValue(verb)">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
+        <td>
+          {{verb.third_person}}
+          <button class="btn btn-azure" ng-hide="verb.third_person" ng-click="verbListCtrl.restoreValue(verb)">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
+        <td ng-show="verbListCtrl.settings.praeteritum">
+          {{verb.praeteritum}}
+          <button class="btn btn-azure" ng-hide="verb.praeteritum" ng-click="verbListCtrl.restoreValue(verb)">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
+        <td>
+          {{verb.perfect}}
+          <button class="btn btn-azure" ng-hide="verb.perfect" ng-click="verbListCtrl.restoreValue(verb)">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
+        <td ng-show="verbListCtrl.settings.auxilliary_verb" ng-click="verbListCtrl.restoreValue(verb)">
+          {{verb.auxilliary_verb}}
+          <button class="btn btn-azure" ng-hide="verb.auxilliary_verb">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
         <!-- <td>{{verb.separable_prefix}}</td>
         <td>{{verb.adding_ge}}</td> -->
-        <td>{{verb.ukr}}</td>
+        <td>
+          {{verb.ukr}}
+          <button class="btn btn-azure" ng-hide="verb.ukr" ng-click="verbListCtrl.restoreValue(verb)">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+          </button>
+        </td>
       </tr>
     </table>
   </div>

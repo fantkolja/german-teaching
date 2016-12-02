@@ -60,8 +60,9 @@ loader {
 /*END LOADER*/
 
 /*VERBS LIST START*/
-.table th, .table td {
+.table th, .table > tbody > tr > td {
   text-align: center;
+  vertical-align: middle;
 }
 
 .btn.btn-default, .btn.btn-default:focus {
@@ -73,4 +74,20 @@ loader {
 .btn.btn-default:hover {
   color: #A3FFFF;
 }
+
+.btn.btn-azure, .btn.btn-azure:focus {
+  background-color: #A3FFFF;
+  color: #527F7F;
+  border-radius: 50%;
+  outline: none;
+}
+
+.btn.btn-azure:hover {
+  color: #F0FFFF;
+}
+
+.table .btn.btn-azure {
+  padding: 0px 15px;
+}
+
 /*END VERB LIST*/
