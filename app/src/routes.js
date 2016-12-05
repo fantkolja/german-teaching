@@ -17,14 +17,16 @@ function config($urlRouterProvider, $stateProvider) {
     abstract: true,
     templateUrl: 'src/challenges/challenges.template.html'
   })
-  .state('challenges.drag-n-drop', {
-    url: '/drag-n-drop',
-    templateUrl: 'src/challenges/drag-n-drop/drag-n-drop.template.html'
+  .state('challenges.memo', {
+    url: '/memo',
+    templateUrl: 'src/challenges/memo/memo.template.html'
   })
   .state('challenges.chose', {
     url: '/chose',
     templateUrl: 'src/challenges/chose/chose.template.html'
   })
+
+  //change to component, resolveonly array verbs
   .state('challenges.fill-in', {
     url: '/fill-in',
     templateUrl: 'src/challenges/fill-in/fill-in.template.html',

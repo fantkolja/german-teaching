@@ -9,7 +9,7 @@ function VerbListController(verbs) {
   var verbListCtrl = this;
 
   verbListCtrl.settings = {
-    kind: false,
+    type: false,
     infinitiv: true,
     third_person: true,
     praeteritum: false,

@@ -1,6 +1,6 @@
 [
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "abbiegen",
     "third_person": "biegt ab",
     "praeteritum": "bog ab",
@@ -11,7 +11,7 @@
     "ukr": "повертати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "anfangen",
     "third_person": "fängt an",
     "praeteritum": "fing an",
@@ -22,7 +22,7 @@
     "ukr": "починати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "anrufen",
     "third_person": "ruft an",
     "praeteritum": "rief an",
@@ -33,7 +33,7 @@
     "ukr": "викликати по телефону"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "anstreichen",
     "third_person": "streicht an",
     "praeteritum": "strich an",
@@ -44,7 +44,7 @@
     "ukr": "фарбувати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "anziehen",
     "third_person": "zieht an",
     "praeteritum": "zog an",
@@ -56,7 +56,7 @@
   },
 
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "aufstehen",
     "third_person": "steht auf",
     "praeteritum": "stand auf",
@@ -67,7 +67,7 @@
     "ukr": "вставати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "beginnen",
     "third_person": "beginnt",
     "praeteritum": "begann",
@@ -78,7 +78,7 @@
     "ukr": "починати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "betreten",
     "third_person": "betritt",
     "praeteritum": "betrat",
@@ -89,7 +89,7 @@
     "ukr": "ззаходити (в приміщення)"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "bitten",
     "third_person": "bittet",
     "praeteritum": "bat",
@@ -100,7 +100,7 @@
     "ukr": "просити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "brechen ",
     "third_person": "bricht",
     "praeteritum": "brach",
@@ -111,7 +111,7 @@
     "ukr": "ламати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "bleiben",
     "third_person": "bleibt",
     "praeteritum": "blieb",
@@ -122,7 +122,7 @@
     "ukr": "залишатися"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "einsteigen",
     "third_person": "steigt ein",
     "praeteritum": "stieg ein",
@@ -133,7 +133,7 @@
     "ukr": "заходити (в транспорт)"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "entscheiden",
     "third_person": "entscheidet",
     "praeteritum": "entschied",
@@ -144,7 +144,7 @@
     "ukr": "вирішувати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "essen",
     "third_person": "isst",
     "praeteritum": "aß",
@@ -155,7 +155,7 @@
     "ukr": "їсти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "fahren",
     "third_person": "fährt",
     "praeteritum": "fuhr",
@@ -166,7 +166,7 @@
     "ukr": "їхати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "fahren",
     "third_person": "fährt",
     "praeteritum": "fuhr",
@@ -177,7 +177,7 @@
     "ukr": "везти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "finden",
     "third_person": "findet",
     "praeteritum": "fand",
@@ -188,7 +188,7 @@
     "ukr": "знаходити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "fliegen",
     "third_person": "fliegt",
     "praeteritum": "flog",
@@ -199,7 +199,7 @@
     "ukr": "літати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "geben",
     "third_person": "gibt",
     "praeteritum": "gab",
@@ -210,7 +210,7 @@
     "ukr": "давати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "gefallen",
     "third_person": "gefällt",
     "praeteritum": "gefiel",
@@ -221,7 +221,7 @@
     "ukr": "подобатися"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "gehen",
     "third_person": "geht",
     "praeteritum": "ging",
@@ -232,7 +232,7 @@
     "ukr": "ходити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "graben",
     "third_person": "gräbt",
     "praeteritum": "grub",
@@ -243,7 +243,7 @@
     "ukr": "копати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "haben",
     "third_person": "hat",
     "praeteritum": "hatte",
@@ -254,7 +254,7 @@
     "ukr": "мати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "hängen",
     "third_person": "hängt",
     "praeteritum": "hing ",
@@ -265,7 +265,7 @@
     "ukr": "висіти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "halten",
     "third_person": "hält",
     "praeteritum": "hielt",
@@ -276,7 +276,7 @@
     "ukr": "зупинятися, тримати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "helfen",
     "third_person": "hilft",
     "praeteritum": "half",
@@ -287,7 +287,7 @@
     "ukr": "допомагати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "kommen",
     "third_person": "kommt",
     "praeteritum": "kam",
@@ -298,7 +298,7 @@
     "ukr": "приходити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "laufen",
     "third_person": "läuft",
     "praeteritum": "lief",
@@ -309,7 +309,7 @@
     "ukr": "бігати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "lesen",
     "third_person": "liest",
     "praeteritum": "las",
@@ -320,7 +320,7 @@
     "ukr": "читати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "liegen",
     "third_person": "liegt",
     "praeteritum": "lag",
@@ -331,7 +331,7 @@
     "ukr": "лежати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "nehmen",
     "third_person": "nimmt",
     "praeteritum": "nahm",
@@ -342,7 +342,7 @@
     "ukr": "брати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "reißen",
     "third_person": "reißt",
     "praeteritum": "riss",
@@ -353,7 +353,7 @@
     "ukr": "рвати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "scheinen",
     "third_person": "scheint",
     "praeteritum": "schien",
@@ -364,7 +364,7 @@
     "ukr": "світити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "schieben",
     "third_person": "schiebt",
     "praeteritum": "schob",
@@ -375,7 +375,7 @@
     "ukr": "сунути"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "schießen",
     "third_person": "schießt",
     "praeteritum": "schoss",
@@ -386,7 +386,7 @@
     "ukr": "стріляти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "schlafen",
     "third_person": "schläft",
     "praeteritum": "schlief",
@@ -397,7 +397,7 @@
     "ukr": "спати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "schließen",
     "third_person": "schließt",
     "praeteritum": "schloss",
@@ -408,7 +408,7 @@
     "ukr": "закривати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "schneiden",
     "third_person": "schneidet",
     "praeteritum": "schnitt",
@@ -419,7 +419,7 @@
     "ukr": "різати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "schreiben",
     "third_person": "schreibt",
     "praeteritum": "schrieb",
@@ -430,7 +430,7 @@
     "ukr": "писати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "sehen",
     "third_person": "sieht",
     "praeteritum": "sah",
@@ -441,7 +441,7 @@
     "ukr": "бачити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "sein",
     "third_person": "ist",
     "praeteritum": "war",
@@ -452,7 +452,7 @@
     "ukr": "бути"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "sitzen",
     "third_person": "sitzt",
     "praeteritum": "saß",
@@ -463,7 +463,7 @@
     "ukr": "сидіти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "singen",
     "third_person": "singt",
     "praeteritum": "sang",
@@ -474,7 +474,7 @@
     "ukr": "співати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "sprechen",
     "third_person": "spricht",
     "praeteritum": "sprach",
@@ -485,7 +485,7 @@
     "ukr": "розмовляти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "springen",
     "third_person": "springt",
     "praeteritum": "sprang",
@@ -496,7 +496,7 @@
     "ukr": "стрибати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "stehen",
     "third_person": "steht",
     "praeteritum": "stand",
@@ -507,7 +507,7 @@
     "ukr": "стояти"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "sterben",
     "third_person": "stirbt",
     "praeteritum": "starb",
@@ -518,7 +518,7 @@
     "ukr": "вмирати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "treffen",
     "third_person": "trifft",
     "praeteritum": "traf",
@@ -529,7 +529,7 @@
     "ukr": "зустрічати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "trinken",
     "third_person": "trinkt",
     "praeteritum": "trank",
@@ -540,7 +540,7 @@
     "ukr": "пити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "waschen",
     "third_person": "wäscht",
     "praeteritum": "wusch",
@@ -551,7 +551,7 @@
     "ukr": "мити"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "werden",
     "third_person": "wird",
     "praeteritum": "wurde",
@@ -562,7 +562,7 @@
     "ukr": "ставати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "werfen",
     "third_person": "wirft",
     "praeteritum": "warf",
@@ -573,7 +573,7 @@
     "ukr": "кидати"
   },
   {
-    "kind": "stark",
+    "type": "stark",
     "infinitiv": "wiegen",
     "third_person": "wiegt",
     "praeteritum": "wog",
@@ -584,7 +584,7 @@
     "ukr": "важити"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "kennen",
     "third_person": "kennt",
     "praeteritum": "kannte",
@@ -595,7 +595,7 @@
     "ukr": "знати"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "bringen",
     "third_person": "bringt",
     "praeteritum": "brachte",
@@ -606,7 +606,7 @@
     "ukr": "приносити"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "wissen",
     "third_person": "weiß",
     "praeteritum": "wusste",
@@ -617,7 +617,7 @@
     "ukr": "знати"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "brennen",
     "third_person": "brennt",
     "praeteritum": "brannte",
@@ -628,7 +628,7 @@
     "ukr": "горіти"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "senden",
     "third_person": "sendet",
     "praeteritum": "sandte",
@@ -639,7 +639,7 @@
     "ukr": "відправляти"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "denken",
     "third_person": "denkt",
     "praeteritum": "dachte",
@@ -650,7 +650,7 @@
     "ukr": "думати"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "rennen",
     "third_person": "rennt",
     "praeteritum": "rannte",
@@ -661,7 +661,7 @@
     "ukr": "мчати"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "wenden",
     "third_person": "wendet",
     "praeteritum": "wandte",
@@ -672,7 +672,7 @@
     "ukr": "повернути"
   },
   {
-    "kind": "gemischt",
+    "type": "gemischt",
     "infinitiv": "nennen",
     "third_person": "nennt",
     "praeteritum": "nannte",
@@ -683,7 +683,7 @@
     "ukr": "називати"
   },
   {
-    "kind": "schwach",
+    "type": "schwach",
     "infinitiv": "machen",
     "third_person": "macht",
     "praeteritum": "machte",

@@ -1,0 +1,28 @@
+/* FILL-IN CHALLENGE START */
+div.fill-in-card {
+  border-radius: 15px 50px;
+  background-color: #527f7f;
+  min-width: 200px;
+  padding: 50px 10px;
+}
+div.fill-in-card .hint{
+  color: #A3FFFF;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+div.fill-in-card input {
+  background-color: azure;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 2em;
+  color: #527f7f;
+  display: inline-block;
+  height: 2.5em;
+}
+
+div.fill-in-card input:focus {
+  outline: none;
+  border-color: #A3FFFF;
+}
+
+/* END FILL-IN CHALLENGE */

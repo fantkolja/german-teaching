@@ -17,7 +17,7 @@ describe('common module', function() {
       $httpBackend.whenGET('data/verbs.json')
         .respond([
           {
-            "kind": "stark",
+            "type": "stark",
             "infinitiv": "abbiegen",
             "third_person": "biegt ab",
             "praeteritum": "bog ab",
@@ -32,7 +32,7 @@ describe('common module', function() {
       VerbListService.getAllVerbs().then(function(res) {
           expect(res).toEqual([
             {
-              "kind": "stark",
+              "type": "stark",
               "infinitiv": "abbiegen",
               "third_person": "biegt ab",
               "praeteritum": "bog ab",

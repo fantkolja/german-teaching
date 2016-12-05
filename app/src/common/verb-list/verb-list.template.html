@@ -4,7 +4,7 @@
   <div class="col-md-2 verb-list text-center">
     <div class="row">
       <div class="verb-list-input col-md-12 col-xs-4">
-        <input type="checkbox" ng-model="verbListCtrl.settings.kind" /> Verbart zeigen<br class="hidden-sm hidden-xs"/>
+        <input type="checkbox" ng-model="verbListCtrl.settings.type" /> Verbart zeigen<br class="hidden-sm hidden-xs"/>
       </div>
       <div class="verb-list-input col-md-12 col-xs-4">
         <input type="checkbox" ng-model="verbListCtrl.settings.praeteritum" /> Präteritum zeigen<br class="hidden-sm hidden-xs"/>
@@ -25,7 +25,7 @@
   <div class="col-md-10">
     <table class="table table-striped">
       <tr>
-        <th ng-show="verbListCtrl.settings.kind">Art</th>
+        <th ng-show="verbListCtrl.settings.type">Art</th>
         <th>Infinitiv</th>
         <th>3. Person</th>
         <th ng-show="verbListCtrl.settings.praeteritum">Präteritum</th>
@@ -36,9 +36,9 @@
         <th>Auf Ukrainisch</th>
       </tr>
       <tr ng-repeat="verb in verbListCtrl.verbs">
-        <td ng-show="verbListCtrl.settings.kind">
-          {{verb.kind}}
-          <button class="btn btn-azure" ng-hide="verb.kind" ng-click="verbListCtrl.restoreValue(verb)">
+        <td ng-show="verbListCtrl.settings.type">
+          {{verb.type}}
+          <button class="btn btn-azure" ng-hide="verb.type" ng-click="verbListCtrl.restoreValue(verb)">
             <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
           </button>
         </td>
