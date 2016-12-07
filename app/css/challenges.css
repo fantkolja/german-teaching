@@ -26,3 +26,41 @@ div.fill-in-card input:focus {
 }
 
 /* END FILL-IN CHALLENGE */
+
+/*CHOSE CHALLENGE START*/
+.chose-container {
+  min-width: 300px;
+}
+
+.chose-heading {
+  margin-bottom: 50px;
+}
+
+[class^="chose-button"], .chose-word  {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 25px solid #A3FFFF;
+  background-color: #C0CCCC;
+  transition: 1s;
+}
+
+.chose-word {
+  border-radius: 100px;
+  width: 100%;
+}
+
+[class^="chose-button"] span, .chose-word {
+  line-height: 100px;
+  vertical-align: middle;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+[class^="chose-button"]:hover {
+  border-color: #C0CCCC;
+  background-color: #A3FFFF;
+  cursor: pointer;
+}
+/*END CHOSE CHALLENGE*/

@@ -23,7 +23,14 @@ function config($urlRouterProvider, $stateProvider) {
   })
   .state('challenges.chose', {
     url: '/chose',
-    templateUrl: 'src/challenges/chose/chose.template.html'
+    templateUrl: 'src/challenges/chose/chose.template.html',
+    controller: 'ChoseController',
+    controllerAs: 'choseCtrl',
+    resolve: {
+      verbs: ['VerbListService', function(VerbListService) {
+        return VerbListService.getAllVerbs();
+      }]
+    }
   })
 
   //change to component, resolveonly array verbs

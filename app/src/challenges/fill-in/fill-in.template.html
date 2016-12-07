@@ -12,12 +12,10 @@
              name="input" pattern="{{fillInCtrl.currentVerb.perfect}}"
              ng-keyup="fillInCtrl.checkUserInput()">
     </form>
-
-    <!-- <p>Tipp:
-      <span class="text-danger" ng-show="form.input.$touched && form.input.$invalid">falsch...</span>
-      <span class="text-success" ng-show="form.input.$touched && form.input.$valid">RICHTIG!</span>
-    </p> -->
   </div>
 
-  <h1 class="y-centered text-center" ng-show="fillInCtrl.gameOver">DU HAST GEWONNEN!</h1>
+  <div class="y-centered text-center" ng-show="fillInCtrl.gameOver">
+    <h1>DU HAST GEWONNEN!</h1>
+    <button ng-click="fillInCtrl.reloadState()" class="btn btn-default">Noch einmal</button>
+  </div>
 </div>

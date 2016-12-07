@@ -4,8 +4,8 @@
 angular.module('challenges')
 .controller('FillInController', FillInController);
 
-FillInController.$inject = ['VerbListService', 'verbs'];
-function FillInController(VerbListService, verbs) {
+FillInController.$inject = ['verbs', 'VerbListRandomizer', '$state'];
+function FillInController(verbs, VerbListRandomizer, $state) {
   var fillInCtrl = this;
 
   var settings = {
@@ -13,36 +13,10 @@ function FillInController(VerbListService, verbs) {
     arrayLength: 2,
     restrictedVerbTypes: ''
   };
-  fillInCtrl.gameOver = false;
 
-    //gets a random verb array of a set langth
-  function getRandomVerbs() {
-    var indexArr = [], index, verbArr = [];
-    for (var i = 0; i < settings.arrayLength; i++) {
-      do {
-        index = Math.floor(Math.random() * verbs.length);
-      } while (indexArr.indexOf(index) != -1);
-      indexArr.push(index);
-      verbArr.push(verbs[index]);
-    }
-    //console.log(verbArr);
-    return verbArr;
-  }
+  var verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
 
-  var verbArray = getRandomVerbs();
-
-  //function factory that creates a function, that
-  //alternates verbs to fill in
-  function setNewVerbGetter() {
-    var index = 0;
-    return function(arr) {
-      var nextItem = arr[index];
-      index++;
-      return nextItem || 'end';
-    };
-  }
-
-  var getNextVerb = setNewVerbGetter();
+  var getNextVerb = VerbListRandomizer.setNewVerbGetter();
 
   fillInCtrl.currentVerb = getNextVerb(verbArray);
 
@@ -53,14 +27,17 @@ function FillInController(VerbListService, verbs) {
       fillInCtrl.currentVerb = getNextVerb(verbArray);
       if (fillInCtrl.currentVerb == 'end') {
         fillInCtrl.gameOver = true;
-        return;
       }
       fillInCtrl.userInput = '';
     }
   };
 
+  fillInCtrl.reloadState = function() {
+    $state.reload();
+  };
+
   //placeholder shit. Is it still MVVC???
-  fillInCtrl.placeholder = '';
+  fillInCtrl.placeholder = 'Type in the ' + settings.formToFillIn + ' form...';
 
   fillInCtrl.addPlaceholder = function() {
     fillInCtrl.placeholder = 'Type in the ' + settings.formToFillIn + ' form...';
