@@ -2,7 +2,7 @@
 div.fill-in-card {
   border-radius: 15px 50px;
   background-color: #527f7f;
-  min-width: 200px;
+  min-width: 300px;
   padding: 50px 10px;
 }
 div.fill-in-card .hint{
@@ -64,3 +64,35 @@ div.fill-in-card input:focus {
   cursor: pointer;
 }
 /*END CHOSE CHALLENGE*/
+
+/*MEMO CHALLENGE START*/
+.memo-card {
+  margin: 10px;
+  background-color: #C0CCCC;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 1.5s;
+  -webkit-box-shadow: 3px 3px 3px grey;
+  -moz-box-shadow: 3px 3px 3px grey;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.memo-card:hover {
+  -webkit-box-shadow: 10px 10px 10px grey;
+  -moz-box-shadow: 10px 10px 10px grey;
+  box-shadow: 10px 10px 10px grey;
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.memo-card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*END MEMO CHALLENGE*/

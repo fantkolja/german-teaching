@@ -30,7 +30,37 @@ function VerbListRandomizer() {
       index++;
       return nextItem || 'end';
     };
-  }
+  };
+
+   // returns an array of objects with paired values
+  //of each item in an input array
+  service.mixVerbForms = function(verbArray) {
+    var mixedFormes = [], indexArray = [];
+
+    //get random indexes
+    for (var i = 0; i < verbArray.length * 2; i++) {
+      indexArray.push(i);
+    }
+    indexArray = indexArray.sort(function() {
+      return Math.random() > 0.5;
+    });
+    //console.log(indexArray);
+
+    indexArray.forEach(function(val) {
+      var nextItem = {};
+
+      nextItem.id = Math.floor(val / 2);
+      //console.log(nextItem.id);
+      if (!(val / 2 - Math.floor(val / 2))) {
+        nextItem.form = verbArray[nextItem.id].infinitiv;
+      } else {
+        nextItem.form = verbArray[nextItem.id].perfect;
+      }
+      mixedFormes.push(nextItem);
+    });
+    //console.log(mixedFormes);
+    return mixedFormes;
+  };
 
 }
 

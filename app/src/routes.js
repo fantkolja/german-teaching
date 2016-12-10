@@ -19,7 +19,14 @@ function config($urlRouterProvider, $stateProvider) {
   })
   .state('challenges.memo', {
     url: '/memo',
-    templateUrl: 'src/challenges/memo/memo.template.html'
+    templateUrl: 'src/challenges/memo/memo.template.html',
+    controller: 'MemoController',
+    controllerAs: 'memoCtrl',
+    resolve: {
+      verbs: ['VerbListService', function(VerbListService) {
+        return VerbListService.getAllVerbs();
+      }]
+    }
   })
   .state('challenges.chose', {
     url: '/chose',

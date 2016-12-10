@@ -1,21 +1,25 @@
-<div class="container y-centered text-center">
-  <div ng-hide="fillInCtrl.gameOver"
-  class="fill-in-card col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-    <p class="text-center hint">{{fillInCtrl.currentVerb.infinitiv}}</p>
-    <form class="form-group" name="form">
-      <input class="form-control" type="text" ng-model="fillInCtrl.userInput"
-             autocomplete="off"
-             autofocus
-             ng-blur="fillInCtrl.addPlaceholder()"
-             ng-focus="fillInCtrl.removePlaceholder()"
-             placeholder="{{fillInCtrl.placeholder}}"
-             name="input" pattern="{{fillInCtrl.currentVerb.perfect}}"
-             ng-keyup="fillInCtrl.checkUserInput()">
-    </form>
-  </div>
+<div class="y-centered full-width">
+  <div class="container">
+    <h1 class="text-center">Schreibe die Perfektform</h1>
 
-  <div class="y-centered text-center" ng-show="fillInCtrl.gameOver">
-    <h1>DU HAST GEWONNEN!</h1>
-    <button ng-click="fillInCtrl.reloadState()" class="btn btn-default">Noch einmal</button>
+    <div ng-hide="fillInCtrl.gameOver"
+    class="fill-in-card col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+      <p class="text-center hint">{{fillInCtrl.currentVerb.infinitiv}}</p>
+      <form class="form-group" name="form">
+        <input class="form-control" type="text" ng-model="fillInCtrl.userInput"
+               autocomplete="off"
+               autofocus
+               ng-blur="fillInCtrl.addPlaceholder()"
+               ng-focus="fillInCtrl.removePlaceholder()"
+               placeholder="{{fillInCtrl.placeholder}}"
+               name="input" pattern="{{fillInCtrl.currentVerb.perfect}}"
+               ng-keyup="fillInCtrl.checkUserInput()">
+      </form>
+    </div>
+
+    <div class="y-centered text-center" ng-show="fillInCtrl.gameOver">
+      <h1>DU HAST GEWONNEN!</h1>
+      <button ng-click="fillInCtrl.reloadState()" class="btn btn-default">Noch einmal</button>
+    </div>
   </div>
 </div>
