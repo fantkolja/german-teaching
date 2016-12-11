@@ -28,11 +28,11 @@ function config($urlRouterProvider, $stateProvider) {
       }]
     }
   })
-  .state('challenges.chose', {
-    url: '/chose',
-    templateUrl: 'src/challenges/chose/chose.template.html',
-    controller: 'ChoseController',
-    controllerAs: 'choseCtrl',
+  .state('challenges.choose', {
+    url: '/choose',
+    templateUrl: 'src/challenges/choose/choose.template.html',
+    controller: 'ChooseController',
+    controllerAs: 'chooseCtrl',
     resolve: {
       verbs: ['VerbListService', function(VerbListService) {
         return VerbListService.getAllVerbs();

@@ -42,9 +42,9 @@ function VerbListRandomizer() {
       indexArray.push(i);
     }
     indexArray = indexArray.sort(function() {
-      return Math.random() > 0.5;
+      return Math.random() - 0.5;
     });
-    //console.log(indexArray);
+    console.log(indexArray);
 
     indexArray.forEach(function(val) {
       var nextItem = {};

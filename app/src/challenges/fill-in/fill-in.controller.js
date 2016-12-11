@@ -9,7 +9,7 @@ function FillInController(verbs, VerbListRandomizer, $state) {
   var fillInCtrl = this;
 
   var settings = {
-    formToFillIn: 'perfect',
+    formToFillIn: 'Perfekt',
     arrayLength: 2,
     restrictedVerbTypes: ''
   };
@@ -37,10 +37,10 @@ function FillInController(verbs, VerbListRandomizer, $state) {
   };
 
   //placeholder shit. Is it still MVVC???
-  fillInCtrl.placeholder = 'Type in the ' + settings.formToFillIn + ' form...';
+  fillInCtrl.placeholder = 'Schreibe die ' + settings.formToFillIn + 'form...';
 
   fillInCtrl.addPlaceholder = function() {
-    fillInCtrl.placeholder = 'Type in the ' + settings.formToFillIn + ' form...';
+    fillInCtrl.placeholder = 'Schreibe die ' + settings.formToFillIn + 'form...';
   };
 
   fillInCtrl.removePlaceholder = function() {

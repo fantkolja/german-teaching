@@ -28,15 +28,15 @@ div.fill-in-card input:focus {
 /* END FILL-IN CHALLENGE */
 
 /*CHOSE CHALLENGE START*/
-.chose-container {
+.choose-container {
   min-width: 300px;
 }
 
-.chose-heading {
+.choose-heading {
   margin-bottom: 50px;
 }
 
-[class^="chose-button"], .chose-word  {
+[class^="choose-button"], .choose-word  {
   margin: 0 auto;
   width: 150px;
   height: 150px;
@@ -46,19 +46,19 @@ div.fill-in-card input:focus {
   transition: 1s;
 }
 
-.chose-word {
+.choose-word {
   border-radius: 100px;
   width: 100%;
 }
 
-[class^="chose-button"] span, .chose-word {
+[class^="choose-button"] span, .choose-word {
   line-height: 100px;
   vertical-align: middle;
   font-size: 2em;
   font-weight: bold;
 }
 
-[class^="chose-button"]:hover {
+[class^="choose-button"]:hover {
   border-color: #C0CCCC;
   background-color: #A3FFFF;
   cursor: pointer;
@@ -67,32 +67,55 @@ div.fill-in-card input:focus {
 
 /*MEMO CHALLENGE START*/
 .memo-card {
+  height: 100px;
   margin: 10px;
   background-color: #C0CCCC;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  cursor: pointer;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 1.5s;
+  -webkit-transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
+  -moz-transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
+  -o-transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
+  transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
   -webkit-box-shadow: 3px 3px 3px grey;
   -moz-box-shadow: 3px 3px 3px grey;
   box-shadow: 3px 3px 3px grey;
+  cursor: pointer;
 }
 
 .memo-card:hover {
   -webkit-box-shadow: 10px 10px 10px grey;
   -moz-box-shadow: 10px 10px 10px grey;
   box-shadow: 10px 10px 10px grey;
-  -moz-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+}
+
+.memo-card.chosen {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
 }
 
 .memo-card img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.memo-card h1 {
+  line-height: px;
+}
+
+.memo-card>span, .memo-card>.memo-form {
+  font-size: 2em;
+  line-height: 100px;
 }
 /*END MEMO CHALLENGE*/
+
+@media screen and (min-width: 480px) {
+  .memo-card {
+    height: 200px;
+  }
+  .memo-card>span, .memo-card>.memo-form {
+    font-size: 3em;
+    line-height: 200px;
+  }
+}

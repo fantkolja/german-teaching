@@ -1,0 +1,29 @@
+<div class="y-centered full-width">
+  <div class="container choose-container">
+    <h1 class="text-center choose-heading">Drücke die richtige Taste!</h1>
+
+    <div class="row" ng-show="chooseCtrl.gameIsOn">
+
+      <div class="col-sm-4 col-sm-push-4 col-xs-12">
+        <div class="choose-word text-center">
+          {{chooseCtrl.currentVerb.infinitiv}}
+        </div>
+      </div>
+      <div class="col-sm-offset-1 col-sm-3 col-sm-pull-4 col-xs-6">
+        <div class="choose-button-left text-center" ng-click="chooseCtrl.checkAnswer('haben')">
+          <span>haben</span>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="choose-button-right text-center" ng-click="chooseCtrl.checkAnswer('sein')">
+          <span>sein</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" ng-hide="chooseCtrl.gameIsOn">
+      <h2 >Du hast <span ng-if="chooseCtrl.userWon">gewonnen</span><span ng-if="chooseCtrl.userLost">verloren</span>!</h2>
+      <button class="btn btn-default" ng-click="chooseCtrl.reloadState()">Noch einmal</button>
+    </div>
+  </div>
+</div>
