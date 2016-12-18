@@ -73,10 +73,10 @@ div.fill-in-card input:focus {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
-  -webkit-transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
-  -moz-transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
-  -o-transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
-  transition: box-shadow 0.5s linear, transform 0.5s ease-in-out;
+  -webkit-transition: box-shadow 0.3s linear, transform 0.5s ease-in-out;
+  -moz-transition: box-shadow 0.3s linear, transform 0.5s ease-in-out;
+  -o-transition: box-shadow 0.3s linear, transform 0.5s ease-in-out;
+  transition: box-shadow 0.3s linear, transform 0.5s ease-in-out;
   -webkit-box-shadow: 3px 3px 3px grey;
   -moz-box-shadow: 3px 3px 3px grey;
   box-shadow: 3px 3px 3px grey;
