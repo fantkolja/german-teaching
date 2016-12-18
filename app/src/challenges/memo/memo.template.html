@@ -1,8 +1,12 @@
-<div class="container">
+<div class="container" ng-show="memoCtrl.gameIsOn">
   <h1 class="text-center">Finde zwei Formen von demselben Verb</h1>
-
   <div class="memo-grid row">
     <memo-card ng-repeat="item in memoCtrl.randomForms" item="item"></memo-card>
   </div>
+</div>
 
+<div class="y-centered full-width text-center" ng-hide="memoCtrl.gameIsOn">
+  <h2>Du hast gewonnen!</h2>
+  <button class="btn btn-default" ng-click="memoCtrl.init()">Noch einmal</button>
+  <!-- <button class="btn btn-default" ui-sref="challenges.choose">Weiter</button> -->
 </div>

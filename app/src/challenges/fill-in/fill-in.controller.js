@@ -10,7 +10,7 @@ function FillInController(verbs, VerbListRandomizer, $state) {
 
   var settings = {
     formToFillIn: 'Perfekt',
-    arrayLength: 2,
+    arrayLength: 20,
     restrictedVerbTypes: ''
   };
 

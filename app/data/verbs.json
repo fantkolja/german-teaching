@@ -167,17 +167,6 @@
   },
   {
     "type": "stark",
-    "infinitiv": "fahren",
-    "third_person": "fährt",
-    "praeteritum": "fuhr",
-    "perfect": "gefahren",
-    "auxilliary_verb": "haben",
-    "separable_prefix": "false",
-    "adding_ge": "true",
-    "ukr": "везти"
-  },
-  {
-    "type": "stark",
     "infinitiv": "finden",
     "third_person": "findet",
     "praeteritum": "fand",

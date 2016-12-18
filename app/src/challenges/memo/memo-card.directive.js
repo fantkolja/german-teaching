@@ -19,6 +19,7 @@ function memoCard($timeout) {
     var memoCard = elem.find('.memo-card');
     //to prevent multiple events at the same time
     var isEventRestricted = false;
+    memoCard.isOpen = false;
     //listener
     var listener;
 
@@ -27,7 +28,9 @@ function memoCard($timeout) {
     });
 
     memoCard.on('click', function() {
-      if (isEventRestricted) return;
+      if (isEventRestricted || memoCard.isOpen) return;
+      memoCard.isOpen = true;
+
       //emit event
       scope.$emit('memoCard:chosen', {
         'item': scope.item,
@@ -36,6 +39,7 @@ function memoCard($timeout) {
 
       //animation
       memoCard.addClass('chosen');
+
       $timeout(function() {
         memoCard.removeClass('chosen');
         memoCard.find('img').addClass('hidden');

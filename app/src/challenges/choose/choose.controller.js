@@ -9,26 +9,33 @@ function ChooseController(verbs, VerbListRandomizer, $state) {
   var chooseCtrl = this;
 
   var settings = {
-    arrayLength: 2,
+    arrayLength: 20,
     restrictedVerbTypes: ''
   };
 
-  var verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
-  var getNextVerb = VerbListRandomizer.setNewVerbGetter();
+  var verbArray, getNextVerb;
 
-  //initial state
-  chooseCtrl.gameIsOn = true;
-  chooseCtrl.userWon = false;
-  chooseCtrl.userLost = false;
-  chooseCtrl.currentVerb = getNextVerb(verbArray);
+  chooseCtrl.init = function() {
+    verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
+    getNextVerb = VerbListRandomizer.setNewVerbGetter();
+    chooseCtrl.gameIsOn = true;
+    chooseCtrl.userWon = false;
+    chooseCtrl.userLost = false;
+    chooseCtrl.currentVerb = getNextVerb(verbArray);
+  };
+
+  //init state
+  chooseCtrl.init();
 
   chooseCtrl.checkAnswer = function(answer) {
     if (answer == chooseCtrl.currentVerb.auxilliary_verb) {
     //  console.log('correct');
       chooseCtrl.currentVerb = getNextVerb(verbArray);
-      if (chooseCtrl.currentVerb == 'end')
+      if (chooseCtrl.currentVerb == 'end') {
         chooseCtrl.gameIsOn = false;
         chooseCtrl.userWon = true;
+      }
+
     } else {
       chooseCtrl.gameIsOn = false;
       chooseCtrl.userLost = true;
