@@ -23,7 +23,7 @@ function FillInController(verbs, VerbListRandomizer, $state) {
   fillInCtrl.userInput = '';
 
   fillInCtrl.checkUserInput = function() {
-    if(fillInCtrl.userInput === fillInCtrl.currentVerb.perfect) {
+    if(fillInCtrl.userInput.toLowerCase() === fillInCtrl.currentVerb.perfect) {
       fillInCtrl.currentVerb = getNextVerb(verbArray);
       if (fillInCtrl.currentVerb == 'end') {
         fillInCtrl.gameOver = true;

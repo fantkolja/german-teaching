@@ -60,6 +60,14 @@ loader {
 /*END LOADER*/
 
 /*VERBS LIST START*/
+.container-fluid.verb-list {
+  min-width: 400px;
+}
+
+.table.table-striped {
+  font-size: 0.7em;
+}
+
 .table th, .table > tbody > tr > td {
   text-align: center;
   vertical-align: middle;
@@ -109,5 +117,11 @@ loader {
 @media screen and (min-width: 992px) {
   .col-md-2.verb-list.text-center {
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 530px) {
+  .table.table-striped {
+    font-size: 1em;
   }
 }

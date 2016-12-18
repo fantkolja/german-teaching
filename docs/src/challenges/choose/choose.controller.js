@@ -31,6 +31,7 @@ function ChooseController(verbs, VerbListRandomizer, $state) {
     if (answer == chooseCtrl.currentVerb.auxilliary_verb) {
     //  console.log('correct');
       chooseCtrl.currentVerb = getNextVerb(verbArray);
+
       if (chooseCtrl.currentVerb == 'end') {
         chooseCtrl.gameIsOn = false;
         chooseCtrl.userWon = true;

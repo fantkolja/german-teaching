@@ -3,7 +3,7 @@
 
 angular.module('common')
 .component('loader', {
-  template: '<img src="images/loader.gif" alt="loader"/>',
+  template: '<img src="images/loader.gif" alt="loader" ng-show="$ctrl.show"/>',
   controller: LoaderController
 });
 
