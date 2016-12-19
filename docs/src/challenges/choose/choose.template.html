@@ -1,6 +1,9 @@
 <div class="y-centered full-width">
   <div class="container choose-container">
-    <h1 class="text-center choose-heading">Drücke die richtige Taste!</h1>
+    <h1 class="text-center choose-heading" ng-show="chooseCtrl.gameIsOn">
+      Drücke die richtige Taste!
+      <span>{{chooseCtrl.counter.index}}/{{chooseCtrl.totalItemsNumber}}</span>
+    </h1>
 
     <div class="row" ng-show="chooseCtrl.gameIsOn">
 
@@ -22,7 +25,7 @@
     </div>
 
     <div class="text-center" ng-hide="chooseCtrl.gameIsOn">
-      <h2 >Du hast <span ng-if="chooseCtrl.userWon">gewonnen</span><span ng-if="chooseCtrl.userLost">verloren</span>!</h2>
+      <h2>Du hast <span ng-if="chooseCtrl.userWon">gewonnen</span><span ng-if="chooseCtrl.userLost">verloren</span>!</h2>
       <button class="btn btn-default" ng-click="chooseCtrl.reloadState()">Noch einmal</button>
     </div>
   </div>

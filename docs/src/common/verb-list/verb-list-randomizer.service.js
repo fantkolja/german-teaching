@@ -23,11 +23,12 @@ function VerbListRandomizer() {
 
   //function factory that creates a function, that
   //alternates verbs to fill in
-  service.setNewVerbGetter = function() {
-    var index = 0;
+  //takes counter and changes it, so the side effect is
+  service.setNewVerbGetter = function(counter) {
+    counter.index = 0;
     return function(arr) {
-      var nextItem = arr[index];
-      index++;
+      var nextItem = arr[counter.index];
+      counter.index++;
       return nextItem || 'end';
     };
   };

@@ -16,11 +16,13 @@ function ChooseController(verbs, VerbListRandomizer, $state) {
   var verbArray, getNextVerb;
 
   chooseCtrl.init = function() {
-    verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
-    getNextVerb = VerbListRandomizer.setNewVerbGetter();
+    chooseCtrl.totalItemsNumber = settings.arrayLength;
+    chooseCtrl.counter = {index:0};
     chooseCtrl.gameIsOn = true;
     chooseCtrl.userWon = false;
     chooseCtrl.userLost = false;
+    verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
+    getNextVerb = VerbListRandomizer.setNewVerbGetter(chooseCtrl.counter);
     chooseCtrl.currentVerb = getNextVerb(verbArray);
   };
 

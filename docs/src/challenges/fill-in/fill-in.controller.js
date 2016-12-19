@@ -14,13 +14,18 @@ function FillInController(verbs, VerbListRandomizer, $state) {
     restrictedVerbTypes: ''
   };
 
-  var verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
+  var verbArray, getNextVerb;
 
-  var getNextVerb = VerbListRandomizer.setNewVerbGetter();
+  function init() {
+    fillInCtrl.counter = {index: 0};
+    fillInCtrl.totalItemsNumber = settings.arrayLength;
+    verbArray = VerbListRandomizer.getRandomVerbs(verbs, settings.arrayLength);
+    getNextVerb = VerbListRandomizer.setNewVerbGetter(fillInCtrl.counter);
+    fillInCtrl.currentVerb = getNextVerb(verbArray);
+    fillInCtrl.userInput = '';
+  }
 
-  fillInCtrl.currentVerb = getNextVerb(verbArray);
-
-  fillInCtrl.userInput = '';
+  init();
 
   fillInCtrl.checkUserInput = function() {
     if(fillInCtrl.userInput.toLowerCase() === fillInCtrl.currentVerb.perfect) {
