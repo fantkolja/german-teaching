@@ -1,6 +1,83 @@
 [
   {
     "type": "stark",
+    "infinitiv": "backen",
+    "third_person": "backt/bäckt",
+    "praeteritum": "backte",
+    "perfect": "gebacken",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "true",
+    "ukr": "пекти"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "bieten",
+    "third_person": "bietet",
+    "praeteritum": "bot",
+    "perfect": "geboten",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "true",
+    "ukr": "пропонувати"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "fangen",
+    "third_person": "fängt",
+    "praeteritum": "fing",
+    "perfect": "gefangen",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "true",
+    "ukr": "ловити"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "heißen",
+    "third_person": "heißt",
+    "praeteritum": "hieß",
+    "perfect": "geheißen",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "true",
+    "ukr": "називатися"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "umziehen",
+    "third_person": "zieht um",
+    "praeteritum": "zog um",
+    "perfect": "umgezogen",
+    "auxilliary_verb": "sein",
+    "separable_prefix": "true",
+    "adding_ge": "true",
+    "ukr": "переїжджати"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "streiten",
+    "third_person": "streitet",
+    "praeteritum": "stritt",
+    "perfect": "gestritten",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "true",
+    "ukr": "сперечатися"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "unterhalten",
+    "third_person": "unterhält",
+    "praeteritum": "unterhielt",
+    "perfect": "unterhalten",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "false",
+    "ukr": "спілкуватися"
+  },
+  {
+    "type": "stark",
     "infinitiv": "abbiegen",
     "third_person": "biegt ab",
     "praeteritum": "bog ab",
