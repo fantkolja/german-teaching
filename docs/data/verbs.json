@@ -1,6 +1,28 @@
 [
   {
     "type": "stark",
+    "infinitiv": "bewerben",
+    "third_person": "bewirbt",
+    "praeteritum": "bewarb",
+    "perfect": "beworben",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "false",
+    "ukr": "претендувати"
+  },
+  {
+    "type": "stark",
+    "infinitiv": "unternehmen",
+    "third_person": "unternimmt",
+    "praeteritum": "unternahm",
+    "perfect": "unternommen",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "false",
+    "ukr": "здійснити"
+  },
+  {
+    "type": "stark",
     "infinitiv": "backen",
     "third_person": "backt/bäckt",
     "praeteritum": "backte",
