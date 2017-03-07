@@ -1,4 +1,15 @@
 [
+	{
+    "type": "stark",
+    "infinitiv": "gewinnen",
+    "third_person": "gewinnt",
+    "praeteritum": "gewann",
+    "perfect": "gewonnen",
+    "auxilliary_verb": "haben",
+    "separable_prefix": "false",
+    "adding_ge": "false",
+    "ukr": "вигравати"
+  },
   {
     "type": "stark",
     "infinitiv": "sinken",
