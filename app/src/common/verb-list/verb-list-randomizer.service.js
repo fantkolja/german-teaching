@@ -55,7 +55,8 @@ function VerbListRandomizer() {
       if (!(val / 2 - Math.floor(val / 2))) {
         nextItem.form = verbArray[nextItem.id].infinitiv;
       } else {
-        nextItem.form = verbArray[nextItem.id].perfect;
+        //FIXME: praeteritum HARDCODED
+        nextItem.form = verbArray[nextItem.id].praeteritum;
       }
       mixedFormes.push(nextItem);
     });

@@ -25,17 +25,67 @@
   <div class="col-md-10">
     <table class="table table-striped">
       <tr>
-        <th ng-show="verbListCtrl.settings.type">Art</th>
-        <th>Infinitiv</th>
-        <th>3. Person</th>
-        <th ng-show="verbListCtrl.settings.praeteritum">Präteritum</th>
-        <th>Perfekt</th>
-        <th ng-show="verbListCtrl.settings.auxilliary_verb">Hilfsverb</th>
+        <th>
+          Nr.
+        </th>
+        <th ng-show="verbListCtrl.settings.type"
+            ng-click="verbListCtrl.sortBy('type')">
+          Art
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'type'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
+        <th ng-click="verbListCtrl.sortBy('infinitiv')">
+          Infinitiv
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'infinitiv'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
+        <th ng-click="verbListCtrl.sortBy('third_person')">
+          3. Person
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'third_person'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
+        <th ng-show="verbListCtrl.settings.praeteritum"
+            ng-click="verbListCtrl.sortBy('praeteritum')">
+          Präteritum
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'praeteritum'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
+        <th ng-click="verbListCtrl.sortBy('perfect')">
+          Perfekt
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'perfect'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
+        <th ng-show="verbListCtrl.settings.auxilliary_verb"
+            ng-click="verbListCtrl.sortBy('auxilliary_verb')">
+          Hilfsverb
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'auxilliary_verb'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
         <!-- <th>Präfix ist trennbar</th>
         <th>"ge-" im Perfekt</th> -->
-        <th>Auf Ukrainisch</th>
+        <th ng-click="verbListCtrl.sortBy('ukr')">
+          Auf Ukrainisch
+          <span class="sortorder"
+                ng-show="verbListCtrl.propertyName === 'ukr'"
+                ng-class="{reverse: verbListCtrl.reverse}">
+          </span>
+        </th>
       </tr>
-      <tr ng-repeat="verb in verbListCtrl.verbs">
+      <tr ng-repeat="verb in verbListCtrl.verbs |
+                     orderBy:verbListCtrl.propertyName:verbListCtrl.reverse">
+        <td>{{$index + 1}}</td>
         <td ng-show="verbListCtrl.settings.type">
           {{verb.type}}
           <button class="btn btn-azure" ng-hide="verb.type" ng-click="verbListCtrl.restoreValue(verb)">

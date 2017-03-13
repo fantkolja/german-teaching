@@ -77,6 +77,13 @@ loader {
   cursor: pointer;
 }
 
+.table th .sortorder:after {
+  content: '\25b2';
+}
+.table th .sortorder.reverse:after {
+  content: '\25bc';
+}
+
 .btn.btn-default, .btn.btn-default:focus {
   background-color: #527F7F;
   color: #F0FFFF;

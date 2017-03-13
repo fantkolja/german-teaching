@@ -14,7 +14,7 @@ div.fill-in-card input {
   background-color: azure;
   border-radius: 15px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #527f7f;
   display: inline-block;
   height: 2.5em;
@@ -27,7 +27,7 @@ div.fill-in-card input:focus {
 
 @media screen and (min-width: 480px) {
   div.fill-in-card input {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 

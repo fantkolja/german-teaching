@@ -9,10 +9,12 @@ function FillInController(verbs, VerbListRandomizer, $state) {
   var fillInCtrl = this;
 
   var settings = {
-    formToFillIn: 'Perfekt',
+    formToFillIn: 'Präteritum',
     arrayLength: 20,
     restrictedVerbTypes: ''
   };
+
+  fillInCtrl.formToFillIn = settings.formToFillIn;
 
   var verbArray, getNextVerb;
 
@@ -28,7 +30,7 @@ function FillInController(verbs, VerbListRandomizer, $state) {
   init();
 
   fillInCtrl.checkUserInput = function() {
-    if(fillInCtrl.userInput.toLowerCase() === fillInCtrl.currentVerb.perfect) {
+    if(fillInCtrl.userInput.toLowerCase() === fillInCtrl.currentVerb.praeteritum) {
       fillInCtrl.currentVerb = getNextVerb(verbArray);
       if (fillInCtrl.currentVerb == 'end') {
         fillInCtrl.gameOver = true;

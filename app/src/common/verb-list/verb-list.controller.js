@@ -20,6 +20,16 @@ function VerbListController(verbs) {
 
   verbListCtrl.verbs = verbs;
 
+  // sorting the table
+  verbListCtrl.propertyName = '';
+  verbListCtrl.reverse = false;
+
+  verbListCtrl.sortBy = (propertyName) => {
+    verbListCtrl.reverse = (verbListCtrl.propertyName === propertyName) ?
+                            !verbListCtrl.reverse : false;
+    verbListCtrl.propertyName = propertyName;
+  }
+
   verbListCtrl.dislocateRandomItems = function() {
     function getRandomTrueProp(trueProps) {
       var randomIndex = Math.floor(Math.random() * trueProps.length);
