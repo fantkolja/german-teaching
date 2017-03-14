@@ -1,4 +1,14 @@
-[
+[	{
+		"type": "stark",
+		"infinitiv": "fallen",
+		"third_person": "fällt",
+		"praeteritum": "fiel",
+		"perfect": "gefallen",
+		"auxilliary_verb": "sein",
+		"separable_prefix": "false",
+		"adding_ge": "true",
+		"ukr": "падати"
+	},
 	{
     "type": "stark",
     "infinitiv": "gewinnen",
