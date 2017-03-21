@@ -24,11 +24,11 @@ function VerbListController(verbs) {
   verbListCtrl.propertyName = '';
   verbListCtrl.reverse = false;
 
-  verbListCtrl.sortBy = (propertyName) => {
+  verbListCtrl.sortBy = function (propertyName) {
     verbListCtrl.reverse = (verbListCtrl.propertyName === propertyName) ?
                             !verbListCtrl.reverse : false;
     verbListCtrl.propertyName = propertyName;
-  }
+  };
 
   verbListCtrl.dislocateRandomItems = function() {
     function getRandomTrueProp(trueProps) {
